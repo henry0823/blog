@@ -27,12 +27,12 @@ class NotesController extends Controller
 	
 	public function store(Request $request)
 	{
-    	$note = New note();
-    	$note->title = $request->title;
-    	$note->content = $request->content;
-    	$note->save();
-    	
-    	return Redirect('/notes');
+	    $note = New note();
+	    $note->title = $request->title;
+	    $note->content = $request->content;
+	    $note->save();
+	    	
+	    return Redirect('/notes');
 
 	}
 }

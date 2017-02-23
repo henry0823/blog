@@ -9,8 +9,9 @@
 		<a href="/notes/{{ $note->id }}"><li>{{ $note->title }}</li></a>
 	</div>
 @endforeach
+s
 <hr>
 
-<a href="/notes/create">Create</a>
+<a href="/notes/create">Create Blog</a>
 
 @stop
